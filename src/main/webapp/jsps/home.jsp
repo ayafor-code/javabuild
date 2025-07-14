@@ -73,7 +73,7 @@
 <div class="nav">
     <a href="login.jsp">Login</a>
     <a href="signup.jsp">Signup</a>
-    <a href="accountdetails.jsp">Account Details</a>
+    <a href="exchange.jsp">Exchange</a>
 </div>
 
 <div class="container">
