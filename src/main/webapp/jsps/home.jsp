@@ -71,9 +71,9 @@
 </div>
 
 <div class="nav">
-    <a href="login.jsp">Login</a>
-    <a href="signup.jsp">Signup</a>
-    <a href="exchange.jsp">Exchange</a>
+    <a href="/login.jsp">Login</a>
+    <a href="/signup.jsp">Signup</a>
+    <a href="/exchange.jsp">Exchange</a>
 </div>
 
 <div class="container">
