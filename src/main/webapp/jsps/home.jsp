@@ -4,54 +4,129 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>TechLink Academy- Home Page</title>
+<title>MoneyLink - Home Page</title>
 <link href="images/techlink.jpg" rel="icon">
-</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    .header {
+        background-color: #0070ba; /* PayPal blue */
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .header img {
+        height: 40px; /* Adjust as needed for logo */
+        vertical-align: middle;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: #005ea6; /* Darker PayPal blue */
+        padding: 10px 0;
+    }
+    .nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0 15px;
+        font-weight: bold;
+    }
+    .nav a:hover {
+        text-decoration: underline;
+    }
+    .container {
+        padding: 20px;
+        text-align: center;
+    }
+    .hero-image {
+        margin: 40px 0;
+    }
+    .hero-image img {
+        max-width: 80%;
+        height: auto;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+    }
+    .footer {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+        border-top: 1px solid #eee;
+        margin-top: 30px;
+    }
+    .footer a {
+        color: #0070ba;
+        text-decoration: none;
+    }
+</style>
 </head>
 <body>
-<h1 align="center">Welcome to LinkPay Web Application Project 2024.</h1>
-<h2 align="center">We are developing and supporting quality Software Solutions to clients globally.
-	           We are raising billionaires IT professionals accross the nations of the World.
-	We offer Training for DevOps with Linux, Kubernetes and Cloud, equipping IT Engineers for best performance.
-        TechLink Academy - Your Link To A Bold New World of Technology.
-	Session 102 will start on June 17, 2024.
-        Please invite all your contacts and friends for this life changing course.
-</h2>
-<hr>
-<br>
-	<h1><h3> Server Side IP Address </h3><br>
 
-<% 
-String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
-%>
-<br>
-<%out.println("Server IP Address :: "+ip);%>
-		
-</h1>
-	
-<hr>
-<div style="text-align: center;">
-	<span>
-		<img src="images/techlink.jpg" alt="" width="150">
-	</span>
-	<span style="font-weight: bold;">
-                TechLink Academy, 
-		Zurich, Switzerland
-		+1 309-610-0128,
-		info@upgrade101.net
-		<br>
-		<a href="mailto:techlink237@gmail.com">Mail to TechLink Academy</a>
-	</span>
+<div class="header">
+    <img src="https://www.paypalobjects.com/paypal-ui/logos/paypal-color.svg" alt="PayPal Logo">
 </div>
-<hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
-<hr>
-<hr>
-<p align=center> TechLink Academy - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2024 by <a href="https://upgrade101.net/">TechLink Academy</a> </small></p>
+
+<div class="nav">
+    <a href="login.jsp">Login</a>
+    <a href="signup.jsp">Signup</a>
+    <a href="accountdetails.jsp">Account Details</a>
+</div>
+
+<div class="container">
+    <h1 align="center">Welcome to MoneyLink Web Application.</h1>
+    <h2 align="center">We deliver innovative, high-quality software solutions that empower financial ecosystems across the globe.
+      Our mission is to cultivate a new generation of elite IT professionals—visionary leaders destined to become billionaires—who are driving digital transformation in every corner of the world.
+        <br>We offer expert-led training programs in DevOps, featuring Linux, Kubernetes, AI, and Cloud technologies.
+      Our goal is to equip IT engineers with cutting-edge skills and tools for peak performance in today's dynamic digital landscape.
+.
+        <br>TechLink - Your Link To A Bold New World of Technology.
+        <br>Our Next Session will start on August 1st, 2025.
+        <br>We encourage you to extend this opportunity by inviting your friends and professional contacts to participate in this transformative program..
+    </h2>
+    <hr>
+
+    <div class="hero-image">
+        <img src="https://via.placeholder.com/600x200?text=MoneyLink" alt="MoneyLink">
+    </div>
+
+    <h1><h3> Server Side IP Address </h3><br>
+    <%
+    String ip = "";
+    InetAddress inetAddress = InetAddress.getLocalHost();
+    ip = inetAddress.getHostAddress();
+    out.println("Server Host Name :: "+inetAddress.getHostName());
+    %>
+    <br>
+    <%out.println("Server IP Address :: "+ip);%>
+    </h1>
+
+    <hr>
+    <div style="text-align: center;">
+        <span>
+            <img src="images/techlink.jpg" alt="" width="150">
+        </span>
+        <span style="font-weight: bold;">
+            TechLink Academy,
+            Douala, Cameroon
+            +237 674 040 761,
+            info@zenith-africa.net
+            <br>
+            <a href="mailto:info@zenith-africa.com">Mail to TechLinkLink Academy</a>
+        </span>
+    </div>
+    <hr>
+    <p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </a></p>
+    <hr>
+</div>
+
+<div class="footer">
+    <p> TechLink Academy - Consultant, Training and Software Development</p>
+    <p><small>Copyrights 2025 by <a href="https://zenith-africa.net/">TechLink Academy</a> </small></p>
+</div>
 
 </body>
 </html>
