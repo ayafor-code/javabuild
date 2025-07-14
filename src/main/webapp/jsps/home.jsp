@@ -67,7 +67,7 @@
 <body>
 
 <div class="header">
-    <img src="https://www.paypalobjects.com/paypal-ui/logos/paypal-color.svg" alt="PayPal Logo">
+    <img src="images/moneyLink.png" alt="MoneyLink">
 </div>
 
 <div class="nav">
@@ -90,7 +90,7 @@
     <hr>
 
     <div class="hero-image">
-        <img src="https://via.placeholder.com/600x200?text=MoneyLink" alt="MoneyLink">
+        <img src="images/moneyLink.png" alt="MoneyLink">
     </div>
 
     <h1><h3> Server Side IP Address </h3><br>
@@ -125,7 +125,7 @@
 
 <div class="footer">
     <p> TechLink Academy - Consultant, Training and Software Development</p>
-    <p><small>Copyrights 2025 by <a href="https://zenith-africa.net/">TechLink Academy</a> </small></p>
+    <p><small>Copyrights 2025 by <a href="https://zenith-africa.com/">TechLink Academy</a> </small></p>
 </div>
 
 </body>
