@@ -77,7 +77,7 @@
 </div>
 
 <div class="container">
-    <h1 align="center">Welcome to MoneyLink Web Application.</h1>
+    <h1 align="center">Welcome to MoneyLink Web Dashboard.</h1>
     <h2 align="center">We deliver innovative, high-quality software solutions that empower financial ecosystems across the globe.
       Our mission is to cultivate a new generation of elite IT professionals—visionary leaders destined to become billionaires—who are driving digital transformation in every corner of the world.
         <br>We offer expert-led training programs in DevOps, featuring Linux, Kubernetes, AI, and Cloud technologies.
@@ -130,5 +130,6 @@
 
 </body>
 </html>
+
 
 
