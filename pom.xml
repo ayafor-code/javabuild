@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://3.142.209.18:8081/repository/linkpay-release/</url>
+	      <url>http://3.87.141.37:8081/repository/mlink-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://3.142.209.18:8081/repository/linkpay-snapshot/</url>
+	      <url>http://3.87.141.37:8081/repository/mlink-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -150,4 +150,5 @@
 	
 	
 </project>
+
 
