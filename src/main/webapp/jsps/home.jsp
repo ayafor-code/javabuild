@@ -88,6 +88,7 @@
         <br>We encourage you to extend this opportunity by inviting your friends and professional contacts to participate in this transformative program..
     </h2>
     <hr>
+    <h1 align="center">Demo Project Sample (07/08/2025)</h1>
 
     <div class="hero-image">
         <img src="images/moneyLink.png" alt="MoneyLink">
