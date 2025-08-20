@@ -9,7 +9,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your .war file into the webapps directory
 # Replace your-application.war with the actual name of your .war file
-COPY linkpay.war /usr/local/tomcat/webapps/
+COPY target/*war /usr/local/tomcat/webapps/
 
 # Expose the default Tomcat port
 EXPOSE 8080
